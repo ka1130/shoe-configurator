@@ -15,14 +15,10 @@
         <section id="configurator">
 
             <div id="shoe">
-                <div id="shoe-img">
+                <div id="shoe-img-container">
                     <img src="img/shoe-side-black.jpg" class="shoe-img" />
-                </div>
-                <div id="toe-img">
-                    <img src="" />
-                </div>
-                <div id="sole-img">
-                    <img src="" />
+                    <img src="" class="toe-img" />
+                    <img src="" class="sole-img" />
                 </div>
             </div>
             <div id="form-configurator">
@@ -43,9 +39,9 @@
                     </fieldset>
                     <h5>Choose sole color</h5>
                     <fieldset>
-                        <input type="radio" name="sole" value="black" checked> Black
-                        <input type="radio" name="sole" value="dark-brown"> Dark Brown
-                        <input type="radio" name="sole" value="light-brown"> Light Brown
+                        <input type="radio" name="sole" value="black" data-img="sole-black.png" checked> Black
+                        <input type="radio" name="sole" value="dark-brown" data-img="sole-darkbrown.png"> Dark Brown
+                        <input type="radio" name="sole" value="light-brown" data-img="sole-lightbrown.png"> Light Brown
                     </fieldset>
                 </form>
             </div>

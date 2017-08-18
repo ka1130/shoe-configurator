@@ -51,8 +51,18 @@ fieldset {
 
 .toe-img {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 16.7rem;
+    left: 32.5rem;
+    width: 122px;
+    height: auto;
+}
+
+.sole-img {
+    position: absolute;
+    top: 18.25rem;
+    left: 11.2rem;
+    width: 465px;
+    height: auto;
 }
 
 h5 {
