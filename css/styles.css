@@ -46,6 +46,13 @@ fieldset {
 .shoe-img {
     width: 500px;
     height: auto;
+    position: relative;
+}
+
+.toe-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 h5 {

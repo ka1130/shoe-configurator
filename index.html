@@ -15,21 +15,31 @@
         <section id="configurator">
 
             <div id="shoe">
-                <img src="img/shoe-side-black.jpg" alt="shoe=basic" class="shoe-img" />
+                <div id="shoe-img">
+                    <img src="img/shoe-side-black.jpg" class="shoe-img" />
+                </div>
+                <div id="toe-img">
+                    <img src="" />
+                </div>
+                <div id="sole-img">
+                    <img src="" />
+                </div>
             </div>
             <div id="form-configurator">
                 <form>
                     <h5>Choose color</h5>
                     <fieldset>
-                        <input type="radio" name="color" value="black" checked> Black
-                        <input type="radio" name="color" value="brown"> Brown
-                        <input type="radio" name="color" value="camel"> Camel
-                        <input type="radio" name="color" value="white"> White
+                        <input type="radio" name="color" value="black" data-img="shoe-side-black.jpg" checked> Black
+                        <input type="radio" name="color" value="brown" data-img="shoe-side-brown.jpg"> Brown
+                        <input type="radio" name="color" value="camel" data-img="shoe-side-camel.jpg"> Camel
+                        <input type="radio" name="color" value="white" data-img="shoe-side-white.jpg"> White
                     </fieldset>
                     <h5>Choose toe</h5>
                     <fieldset>
-                        <input type="radio" name="toe" value="smooth" checked> Smooth
-                        <input type="radio" name="toe" value="crocodile"> Crocodile
+                        <input type="radio" name="toe" value="black" data-img="toe-black.png" checked> Black
+                        <input type="radio" name="toe" value="brown" data-img="toe-brown.png"> Brown
+                        <input type="radio" name="toe" value="camel" data-img="toe-camel.png"> Camel
+                        <input type="radio" name="toe" value="white" data-img="toe-white.png"> White
                     </fieldset>
                     <h5>Choose sole color</h5>
                     <fieldset>
